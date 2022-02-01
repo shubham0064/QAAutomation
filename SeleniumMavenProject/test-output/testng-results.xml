@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65710" started-at="2022-01-26T20:46:59 IST" finished-at="2022-01-26T20:48:05 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.Runner@7a30d1e6]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="65710" started-at="2022-01-26T20:46:59 IST" finished-at="2022-01-26T20:48:05 IST">
+      <class name="testrunner.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunner.Runner@7a30d1e6]" name="setUpClass" is-config="true" duration-ms="144" started-at="2022-01-26T20:46:59 IST" finished-at="2022-01-26T20:46:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.Runner@7a30d1e6]" name="runScenario" duration-ms="23827" started-at="2022-01-26T20:46:59 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-26T20:47:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Actitime application with valid uservalid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Actitime application login functionlity"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.Runner@7a30d1e6]" name="runScenario" duration-ms="20457" started-at="2022-01-26T20:47:23 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-26T20:47:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Actitime application with valid userinvalid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Actitime application login functionlity"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.Runner@7a30d1e6]" name="runScenario" duration-ms="21053" started-at="2022-01-26T20:47:44 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-26T20:48:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Actitime application with valid userinvalid user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Actitime application login functionlity"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.Runner@7a30d1e6]" name="tearDownClass" is-config="true" duration-ms="124" started-at="2022-01-26T20:48:05 IST" finished-at="2022-01-26T20:48:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
